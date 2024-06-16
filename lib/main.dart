@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Forest Animation Demo',
+      title: ' Animation Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -58,12 +58,12 @@ class _AnimationPageState extends State<AnimationPage>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Forest Animation Demo'),
+        title: const Text('About the forest'),
       ),
       body: Center(
         child: Container(
           width: MediaQuery.of(context).size.width * 0.7,
-          padding: EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(16.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
@@ -124,7 +124,7 @@ class _AnimationPageState extends State<AnimationPage>
               SizedBox(height: 10.0),
               ElevatedButton(
                 onPressed: _animateImage,
-                child: Text(_isImageAnimated ? 'Reverse Image Animation' : 'Animate Image'),
+                child: Text(_isImageAnimated ? 'Reverse Image Animation' : 'Animate me'),
               ),
             ],
           ),
