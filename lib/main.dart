@@ -112,9 +112,9 @@ class _AnimationPageState extends State<AnimationPage>
                     return Transform.scale(
                       scale: _imageAnimation.value,
                       child: Image.asset(
-                        'assets/for.jpeg', // Replace with your photo's asset path
-                        width: 300.0, // Adjust width as per your requirement
-                        height: 300.0, // Adjust height as per your requirement
+                        'assets/for.jpeg', 
+                        width: 300.0, 
+                        height: 300.0, 
                         fit: BoxFit.cover,
                       ),
                     );
